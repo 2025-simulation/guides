@@ -1,0 +1,4 @@
+* A guide of simulation
+* wish list [0/2]
+- [ ] git
+- [ ] ubuntu
