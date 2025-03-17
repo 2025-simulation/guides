@@ -1,4 +1,66 @@
 * A guide of simulation
-* wish list [0/2]
+* wish list [1/2]
 - [ ] git
-- [ ] ubuntu
+* Recommend
+** immersive translate
+** google
+
+* Git
+** wished list [0/4]
+- [ ] reset
+- [ ] add
+- [ ] commit
+- [ ] remote
+** Configuration
+#+begin_src zsh
+git config global --global user.name "<username>"
+git config global --global user.email "<email>"
+#+end_src
+** Main
+program + parameters
+
+*** clone
+#+begin_src zsh
+git clone <repo_path>
+git clone https://github.com/2025-simulation/simple-chat-app.git
+git clone git@github.com:2025-simulation/simple-chat-app.git
+#+end_src
+*** manage repo
+#+begin_src zsh
+git init # initialize the git repo
+git add <the file or folders>
+git commit -m "Message"
+#+end_src
+The progress
+**** wished list [0/3]
+- [ ] add graph
+- [ ] commit graph
+- [ ] reset graph
+#+begin_src dot :file ./images/git-local.png
+digraph G {
+    A -> B [label="add"];
+    B -> C [label="commit"];
+    C -> D [label="upload"];
+    subgraph cluster_local{
+        label="local";
+        A [label="changes"];
+        subgraph cluster_add{
+                label="added";
+                B [label="changes"];
+        }
+        subgraph cluster_commit{
+                label="commited"
+                C [label="changes"];
+        }
+    }
+    subgraph cluster_online{
+        label="online";
+        D [label="changes"];
+
+    }
+}
+#+end_src
+
+#+RESULTS:
+[[file:./images/git-local.png]]
+[[file:./images/git-local.png]]
