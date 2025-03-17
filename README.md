@@ -1,52 +1,52 @@
 
 # Table of Contents
 
-1.  [A guide of simulation](#orgfbfe93a)
-2.  [wish list <code>[1/2]</code>](#org873f247)
-3.  [Recommend](#org0f4e5c8)
-    1.  [immersive translate](#org501821e)
-    2.  [google](#orgfb0d13d)
-4.  [Git](#org1a6f1a4)
-    1.  [wished list <code>[0/4]</code>](#org9ac7aa6)
-    2.  [Configuration](#org8be37ec)
-    3.  [Main](#orgfef94b9)
-        1.  [clone](#org3986168)
-        2.  [manage repo](#org2febc08)
+1.  [A guide of simulation](#orgb8c7a2a)
+2.  [wish list <code>[1/2]</code>](#org7c2d1b6)
+3.  [Recommend](#orgade91e9)
+    1.  [immersive translate](#org8e4e5d4)
+    2.  [google](#org4cb1bea)
+4.  [Git](#org7a301b7)
+    1.  [wished list <code>[0/4]</code>](#org35ab989)
+    2.  [Configuration](#org08f45f8)
+    3.  [Main](#orga45e5a7)
+        1.  [clone](#org45761a1)
+        2.  [manage repo](#org457bf75)
 
 
-<a id="orgfbfe93a"></a>
+<a id="orgb8c7a2a"></a>
 
 # A guide of simulation
 
 
-<a id="org873f247"></a>
+<a id="org7c2d1b6"></a>
 
 # wish list <code>[1/2]</code>
 
 -   [ ] git
 
 
-<a id="org0f4e5c8"></a>
+<a id="orgade91e9"></a>
 
 # Recommend
 
 
-<a id="org501821e"></a>
+<a id="org8e4e5d4"></a>
 
 ## immersive translate
 
 
-<a id="orgfb0d13d"></a>
+<a id="org4cb1bea"></a>
 
 ## google
 
 
-<a id="org1a6f1a4"></a>
+<a id="org7a301b7"></a>
 
 # Git
 
 
-<a id="org9ac7aa6"></a>
+<a id="org35ab989"></a>
 
 ## wished list <code>[0/4]</code>
 
@@ -56,7 +56,7 @@
 -   [ ] remote
 
 
-<a id="org8be37ec"></a>
+<a id="org08f45f8"></a>
 
 ## Configuration
 
@@ -64,14 +64,14 @@
     git config global --global user.email "<email>"
 
 
-<a id="orgfef94b9"></a>
+<a id="orga45e5a7"></a>
 
 ## Main
 
 program + parameters
 
 
-<a id="org3986168"></a>
+<a id="org45761a1"></a>
 
 ### clone
 
@@ -80,7 +80,7 @@ program + parameters
     git clone git@github.com:2025-simulation/simple-chat-app.git
 
 
-<a id="org2febc08"></a>
+<a id="org457bf75"></a>
 
 ### manage repo
 
