@@ -63,4 +63,8 @@ digraph G {
 
 #+RESULTS:
 [[file:./images/git-local.png]]
-[[file:./images/git-local.png]]
+* Google
+现在我们面临的一些问题都是专业性质比较强的问题，目前中文互联网的可提供的解决方案比较少，于是我们可能绝大部分时间需要在英文互联网寻找解答。
+
+目前英文互联网最好的搜索引擎就是 [[https://google.com][google]] 。
+在一些专业的论坛上通常能够找到最好的答案，比如 [[https://stackoverflow.com/questions][stackoverflow]] 和 [[https://www.reddit.com/][reddit]]

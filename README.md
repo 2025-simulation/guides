@@ -1,52 +1,52 @@
 
 # Table of Contents
 
-1.  [A guide of simulation](#orgb8c7a2a)
-2.  [wish list <code>[1/2]</code>](#org7c2d1b6)
-3.  [Recommend](#orgade91e9)
-    1.  [immersive translate](#org8e4e5d4)
-    2.  [google](#org4cb1bea)
-4.  [Git](#org7a301b7)
-    1.  [wished list <code>[0/4]</code>](#org35ab989)
-    2.  [Configuration](#org08f45f8)
-    3.  [Main](#orga45e5a7)
-        1.  [clone](#org45761a1)
-        2.  [manage repo](#org457bf75)
+1.  [A guide of simulation](#org4494753)
+2.  [wish list <code>[1/2]</code>](#org3842509)
+3.  [Recommend](#orgb84906d)
+    1.  [immersive translate](#org45c31cb)
+    2.  [google](#org2cc0ef9)
+4.  [Git](#orgd631107)
+    1.  [wished list <code>[0/4]</code>](#org2ff6ab6)
+    2.  [Configuration](#org7f3c13e)
+    3.  [Main](#org131c641)
+        1.  [clone](#org567d576)
+        2.  [manage repo](#org35fefed)
 
 
-<a id="orgb8c7a2a"></a>
+<a id="org4494753"></a>
 
 # A guide of simulation
 
 
-<a id="org7c2d1b6"></a>
+<a id="org3842509"></a>
 
 # wish list <code>[1/2]</code>
 
 -   [ ] git
 
 
-<a id="orgade91e9"></a>
+<a id="orgb84906d"></a>
 
 # Recommend
 
 
-<a id="org8e4e5d4"></a>
+<a id="org45c31cb"></a>
 
 ## immersive translate
 
 
-<a id="org4cb1bea"></a>
+<a id="org2cc0ef9"></a>
 
 ## google
 
 
-<a id="org7a301b7"></a>
+<a id="orgd631107"></a>
 
 # Git
 
 
-<a id="org35ab989"></a>
+<a id="org2ff6ab6"></a>
 
 ## wished list <code>[0/4]</code>
 
@@ -56,7 +56,7 @@
 -   [ ] remote
 
 
-<a id="org08f45f8"></a>
+<a id="org7f3c13e"></a>
 
 ## Configuration
 
@@ -64,14 +64,14 @@
     git config global --global user.email "<email>"
 
 
-<a id="orga45e5a7"></a>
+<a id="org131c641"></a>
 
 ## Main
 
 program + parameters
 
 
-<a id="org45761a1"></a>
+<a id="org567d576"></a>
 
 ### clone
 
@@ -80,7 +80,7 @@ program + parameters
     git clone git@github.com:2025-simulation/simple-chat-app.git
 
 
-<a id="org457bf75"></a>
+<a id="org35fefed"></a>
 
 ### manage repo
 
@@ -96,6 +96,5 @@ The progress
     -   [ ] commit graph
     -   [ ] reset graph
     
-    ![img](./images/git-local.png)
     ![img](./images/git-local.png)
 
