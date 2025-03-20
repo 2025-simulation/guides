@@ -6,11 +6,6 @@
 ** google
 
 * Git
-** wished list [0/4]
-- [ ] reset
-- [ ] add
-- [ ] commit
-- [ ] remote
 ** Configuration
 #+begin_src zsh
 git config global --global user.name "<username>"
@@ -18,7 +13,6 @@ git config global --global user.email "<email>"
 #+end_src
 ** Main
 program + parameters
-
 *** clone
 #+begin_src zsh
 git clone <repo_path>
@@ -32,10 +26,7 @@ git add <the file or folders>
 git commit -m "Message"
 #+end_src
 The progress
-**** wished list [0/3]
-- [ ] add graph
-- [ ] commit graph
-- [ ] reset graph
+**** wished list
 #+begin_src dot :file ./images/git-local.png
 digraph G {
     A -> B [label="add"];
@@ -63,6 +54,11 @@ digraph G {
 
 #+RESULTS:
 [[file:./images/git-local.png]]
+**** 建立远程仓库
+对于如何在 GitHub 建立一个远程仓库，可以参考 [[https://docs.github.com/zh/get-started/git-basics/managing-remote-repositories][这个文档]] 。
+
+
+
 * Google
 现在我们面临的一些问题都是专业性质比较强的问题，目前中文互联网的可提供的解决方案比较少，于是我们可能绝大部分时间需要在英文互联网寻找解答。
 
