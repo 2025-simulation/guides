@@ -1,10 +1,3 @@
-* A guide of simulation
-* wish list [1/2]
-- [ ] git
-* Recommend
-** immersive translate
-** google
-
 * Git
 ** Configuration
 #+begin_src zsh
@@ -56,14 +49,13 @@ digraph G {
 [[file:./images/git-local.png]]
 **** 建立远程仓库
 对于如何在 GitHub 建立一个远程仓库，可以参考 [[https://docs.github.com/zh/get-started/git-basics/managing-remote-repositories][这个文档]] 。
-
-
-
 * Google
 现在我们面临的一些问题都是专业性质比较强的问题，目前中文互联网的可提供的解决方案比较少，于是我们可能绝大部分时间需要在英文互联网寻找解答。
 
 目前英文互联网最好的搜索引擎就是 [[https://google.com][google]] 。
 在一些专业的论坛上通常能够找到最好的答案，比如 [[https://stackoverflow.com/questions][stackoverflow]] 和 [[https://www.reddit.com/][reddit]]
+
+另外如果对于英文阅读有一些压力可以选择在浏览器下载一个插件 [[https://immersivetranslate.com/][沉浸式翻译]] 。
 * Neovim
 ** 简介
 Neovim 是一个终端下的专业的文本编辑器，可以方便地在终端下面直接编辑文本，而不需要退出终端、打开其他软件然后在翻看文件路径找到需要编辑的文件。

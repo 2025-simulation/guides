@@ -1,60 +1,28 @@
 
 # Table of Contents
 
-1.  [A guide of simulation](#org489f2a7)
-2.  [wish list <code>[1/2]</code>](#org2bbed22)
-3.  [Recommend](#org7c581d4)
-    1.  [immersive translate](#org568f110)
-    2.  [google](#org14fdd2a)
-4.  [Git](#org211bf61)
-    1.  [Configuration](#org3f7271a)
-    2.  [Main](#orgaf22d67)
-        1.  [clone](#org90115fd)
-        2.  [manage repo](#org847c4ec)
-5.  [Google](#org63ea82e)
-6.  [Neovim](#orge767fc0)
-    1.  [简介](#org4af805a)
-    2.  [下载](#orgcaa4ada)
-        1.  [Ubuntu](#orgdf9bbcd)
-        2.  [windows](#org15e29de)
-    3.  [使用方法](#org34f54df)
-        1.  [打开 neovim](#org852c73c)
-        2.  [如何使用 Neovim](#org2d5c3d8)
+1.  [Git](#org3b85112)
+    1.  [Configuration](#org4edde95)
+    2.  [Main](#org37e0d85)
+        1.  [clone](#org083326f)
+        2.  [manage repo](#org56da961)
+2.  [Google](#org576eb27)
+3.  [Neovim](#org1fd8764)
+    1.  [简介](#orgf4d213a)
+    2.  [下载](#org2f85b59)
+        1.  [Ubuntu](#orge392649)
+        2.  [windows](#org2bcbe20)
+    3.  [使用方法](#org7b791eb)
+        1.  [打开 neovim](#org53069fa)
+        2.  [如何使用 Neovim](#orgc773224)
 
 
-<a id="org489f2a7"></a>
-
-# A guide of simulation
-
-
-<a id="org2bbed22"></a>
-
-# wish list <code>[1/2]</code>
-
--   [ ] git
-
-
-<a id="org7c581d4"></a>
-
-# Recommend
-
-
-<a id="org568f110"></a>
-
-## immersive translate
-
-
-<a id="org14fdd2a"></a>
-
-## google
-
-
-<a id="org211bf61"></a>
+<a id="org3b85112"></a>
 
 # Git
 
 
-<a id="org3f7271a"></a>
+<a id="org4edde95"></a>
 
 ## Configuration
 
@@ -62,14 +30,14 @@
     git config global --global user.email "<email>"
 
 
-<a id="orgaf22d67"></a>
+<a id="org37e0d85"></a>
 
 ## Main
 
 program + parameters
 
 
-<a id="org90115fd"></a>
+<a id="org083326f"></a>
 
 ### clone
 
@@ -78,7 +46,7 @@ program + parameters
     git clone git@github.com:2025-simulation/simple-chat-app.git
 
 
-<a id="org847c4ec"></a>
+<a id="org56da961"></a>
 
 ### manage repo
 
@@ -97,7 +65,7 @@ The progress
     对于如何在 GitHub 建立一个远程仓库，可以参考 [这个文档](https://docs.github.com/zh/get-started/git-basics/managing-remote-repositories) 。
 
 
-<a id="org63ea82e"></a>
+<a id="org576eb27"></a>
 
 # Google
 
@@ -106,34 +74,36 @@ The progress
 目前英文互联网最好的搜索引擎就是 [google](https://google.com) 。
 在一些专业的论坛上通常能够找到最好的答案，比如 [stackoverflow](https://stackoverflow.com/questions) 和 [reddit](https://www.reddit.com/)
 
+另外如果对于英文阅读有一些压力可以选择在浏览器下载一个插件 [沉浸式翻译](https://immersivetranslate.com/) 。
 
-<a id="orge767fc0"></a>
+
+<a id="org1fd8764"></a>
 
 # Neovim
 
 
-<a id="org4af805a"></a>
+<a id="orgf4d213a"></a>
 
 ## 简介
 
 Neovim 是一个终端下的专业的文本编辑器，可以方便地在终端下面直接编辑文本，而不需要退出终端、打开其他软件然后在翻看文件路径找到需要编辑的文件。
 
 
-<a id="orgcaa4ada"></a>
+<a id="org2f85b59"></a>
 
 ## 下载
 
 这个是官方的下载地址 [Neovim](https://neovim.io) ，一切以官方的下载地址为准。
 
 
-<a id="orgdf9bbcd"></a>
+<a id="orge392649"></a>
 
 ### Ubuntu
 
     sudo apt install neovim
 
 
-<a id="org15e29de"></a>
+<a id="org2bcbe20"></a>
 
 ### windows
 
@@ -141,12 +111,12 @@ Neovim 是一个终端下的专业的文本编辑器，可以方便地在终端�
 tips: 如果不清楚下载的页面的含义，建议自己上网查询，否则不要改动，全部按照默认安装即可。
 
 
-<a id="org34f54df"></a>
+<a id="org7b791eb"></a>
 
 ## 使用方法
 
 
-<a id="org852c73c"></a>
+<a id="org53069fa"></a>
 
 ### 打开 neovim
 
@@ -158,7 +128,7 @@ tips: 如果不清楚下载的页面的含义，建议自己上网查询，否�
 -   `test.md`: 这是一个 markdown 语法的文档。和 txt 一样属于文本文件，在编程领域尤为常见。
 
 
-<a id="org2d5c3d8"></a>
+<a id="orgc773224"></a>
 
 ### 如何使用 Neovim
 
