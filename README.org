@@ -52,6 +52,37 @@ digraph G {
 [[file:./images/git-local.png]]
 **** 建立远程仓库
 对于如何在 GitHub 建立一个远程仓库，可以参考 [[https://docs.github.com/zh/get-started/git-basics/managing-remote-repositories][这个文档]] 。
+*** remote repo
+You may meet problems when trying to push your local repos to remote repos.
+
+That because you need to have the privilege to change to remote repos.
+And git may request you to provide the username and password.
+Even you provide it, you are still not able to push to the remote.
+Because github only recognize the ssh to verify your priviledge.
+
+So, you have to add your local ssh key to the github.
+**** create ssh key
+#+begin_src shell
+ssh-keygen -t ed25519 -C "your_email@example.com"
+# actually, it does not checkout the email, and you can leave it null.
+#+end_src
+
+Then you can just press enter until the command finish.
+
+you need to find out where the ssh key stored in through CLI output like:
+#+begin_src shell
+Your public key has been saved in C:\Users\Able7/.ssh/id_ed25519.pub
+#+end_src
+add the content in the =C:\Users\Able7/.ssh/id_ed25519.pub= to the github.
+**** add to github
+In the github website, go to setting.
+
+click =SSH and GPG keys=, then =New SSH key=.
+
+paste the content in the =id_ed25519.pub= to the key box.
+
+
+
 * Google
 现在我们面临的一些问题都是专业性质比较强的问题，目前中文互联网的可提供的解决方案比较少，于是我们可能绝大部分时间需要在英文互联网寻找解答。
 
