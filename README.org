@@ -1,3 +1,6 @@
+* Github Desktop
+If you did not have the experience with command line. You can try github desktop to manage your remote repos.
+Seek for help [[https://www.bilibili.com/video/BV13W411U7HY/?spm_id_from=333.337.search-card.all.click&vd_source=c929e07d3af3e6861de93427e4190229][here]] .
 * Git
 ** Configuration
 #+begin_src zsh
@@ -79,7 +82,7 @@ tips: 如果不清楚下载的页面的含义，建议自己上网查询，否�
 Neovim 里面有官方自带的教程。
 输入 =nvim= 打开 Neovim 之后，不要乱动键盘，确认是英文输入法之后输入 =:Tutor= 然后回车即可查看。注意在输入冒号之后会在左下角出现输入提示，可以查看拼写。
 如果阅读英文文档有一些压力，可以选择参考下面的网站 [[https://yianwillis.github.io/vimcdoc/doc/usr_toc.html][Neovim Tutor]] 。
-* Others
+* Others Docs
 1. [[./docs/blender-mcp.md][blender-mcp]] needs claude desktop, but it didn't support users in China,
    although with vpn.
 2. [[./docs/mcp-server.md][mcp-server]]
